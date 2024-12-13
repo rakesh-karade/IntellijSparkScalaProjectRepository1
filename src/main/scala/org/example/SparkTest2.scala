@@ -2,7 +2,7 @@ package main.scala.org.example
 
 import org.apache.spark.sql.SparkSession
 
-object SparkTest1 {
+object SparkTest2 {
 
   def main(args : Array[String]) : Unit = {
     val ss = SparkSession.builder().master("local").appName("App-1").getOrCreate()
